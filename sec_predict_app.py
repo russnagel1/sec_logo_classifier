@@ -62,7 +62,7 @@ def predict():
     #print(decoded)
     
     bufferVar = io.BytesIO(decoded)
- #   print(bufferVar)
+    print(bufferVar)                    #comment out this line
     
     other_image = Image.open(bufferVar)
     
